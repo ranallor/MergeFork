@@ -20,6 +20,7 @@ public class MergeFork extends javax.swing.JFrame {
     
     private final String[] contributorArray = new String[] {
         "Ken Weber",
+        "Rob Ranallo",
     };
     
     /**
@@ -106,7 +107,7 @@ public class MergeFork extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void contributorsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_contributorsButtonActionPerformed
-        contributorsArea.setText("");  //  Start with no text and append.
+        contributorsArea.setText(""); //  Start with no text and append.
         for (String name: contributorArray) {
             contributorsArea.append(name + "\n");
         }
